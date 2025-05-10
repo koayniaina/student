@@ -1,0 +1,43 @@
+.icon{
+    cursor: pointer;   
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    background-color: #062042;
+    padding: 1rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.span{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.button{
+    cursor: pointer;
+    position: relative;
+}
+
+.main{ 
+    display: flex;
+    gap: 2rem;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+
+}
+
+.main a{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    text-transform: uppercase;
+}
