@@ -25,54 +25,54 @@ export default function Sidebar() {
         <div>
           <ul className={styles.sides}>
             <li className="mb-2">
-              <Link href="/admin">
+              <Link href="/admin"  onClick={toggleSidebar}>
                 <MdSpaceDashboard /> Dashboard
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/student">
+              <Link href="/student" onClick={toggleSidebar}>
                 <PiStudentBold />
                 Student
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/teacher">
+              <Link href="/teacher"  onClick={toggleSidebar}>
               <FaChalkboardTeacher />
                 Teacher
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/class">
+              <Link href="/class" onClick={toggleSidebar}>
               <FaSchool />
                 Class
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/attandence">
+              <Link href="/attandence" onClick={toggleSidebar}>
               <MdDisplaySettings />
                 Attandance
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/subject">
+              <Link href="/subject" onClick={toggleSidebar}>
               <MdSubject />
                 Subject
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/examen">
+              <Link href="/examen" onClick={toggleSidebar}>
               <FaStackExchange />
                 Exam
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/message">
+              <Link href="/message" onClick={toggleSidebar}>
               <FaEnvelope />
                 Message
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/payement">
+              <Link href="/payement" onClick={toggleSidebar}>
               <MdPayments />
                 Transaction
               </Link>
