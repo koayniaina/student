@@ -10,9 +10,9 @@ export default function Navbar() {
         <FaSchool className={styles.icon} />
         <span className={styles.span}>Student</span>
       </div>
-      <div className={styles.btn}>
-        <DialogDemo />
-      </div>
+      <section className={styles.btn}>
+        <DialogDemo/>
+      </section>
     </header>
   );
 }

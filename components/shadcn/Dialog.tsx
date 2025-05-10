@@ -9,7 +9,7 @@ export function DialogDemo() {
   return (
     <Dialog>
       <DialogTrigger>
-        <IoEllipsisHorizontal />
+        <IoEllipsisHorizontal className={styles.icon}/>
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
